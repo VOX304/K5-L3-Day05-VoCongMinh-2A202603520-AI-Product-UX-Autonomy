@@ -16,8 +16,10 @@
 | Nguyên tắc | G2/G10/G9 đối chiếu đúng vị trí ①–⑦ ở §5 | Đã có |
 | Tiêu chí kiểm tra | P1/P2/P3, kết quả và giới hạn ở §6, `docs/verification.md` | Đã có |
 | Giải thích và demo | `docs/learning-guide.md`, `docs/demo.md`, glossary và hai ADR | Đã chuẩn bị; không thay thế việc tác giả tự giải thích |
-| Repo có bài ngay ở gốc | `README.md`, `spec.md`, `prototype/`, `tests/` cùng lịch sử fork | Được hoàn thiện theo repo chính tác giả chọn |
+| Repo có bài ngay ở gốc | `README.md`, `spec.md`, `prototype/`, `tests/` cùng lịch sử fork | Đã push nhánh `main` và xác minh GitHub khớp bản local |
 | Tài liệu chương trình | `docs/de-bai/README.md`; các file đề, `tracks/`, `prototype-sample/` ở gốc | Giữ nguyên để đối chiếu |
+
+Ngày 14/11/2026 đã chạy lại **35 kiểm tra logic và 13 kiểm tra trình duyệt**, đều đạt. Đã xác minh repo đọc được không đăng nhập, vẫn là fork của chương trình và giữ đủ 12 tệp đề ban đầu (README gốc được lưu riêng). Chi tiết bằng chứng ở [verification.md](verification.md).
 
 ## Những điểm chưa thể ghi là đã đáp ứng quy chế gốc
 

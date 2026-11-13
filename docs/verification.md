@@ -43,7 +43,7 @@ Ngày kiểm tra tại repo fork: **14/11/2026**, múi giờ Việt Nam. Kiểm 
 | Dữ liệu và an toàn T1 | Không thuốc/liều/giao dịch; sản phẩm, trạng thái, tuổi, triệu chứng giả | Có trong phạm vi bản mẫu |
 | Định dạng bài | `spec.md`, `prototype/`, đúng hai ảnh, tài liệu hỗ trợ riêng | Có |
 | Thông tin bài | L3A/T1/TakingCare/cá nhân do người học chọn; tác giả/mã giữ nguyên theo tên repo được cung cấp | Không suy đoán dấu họ tên |
-| Repo chính theo lựa chọn tác giả | Dùng repo fork có sẵn; `spec.md` và `prototype/` được đặt ngay gốc, giữ tài liệu đề | Đối chiếu trạng thái push ở cuối tài liệu |
+| Repo chính theo lựa chọn tác giả | Dùng repo fork có sẵn; `spec.md` và `prototype/` ngay gốc, giữ tài liệu đề; nhánh `main` trên GitHub khớp bản local | Đã xác minh ngày 14/11/2026 |
 | Quy định repo mới, không fork | README gốc yêu cầu repo mới; repo chính hiện là fork theo lựa chọn tác giả | Khác yêu cầu gốc; chưa có ngoại lệ được giảng viên xác nhận |
 | Quy định tên repo | Tên fork hiện giữ định dạng của tác giả; README gốc yêu cầu `K5-<L3A/L3B>-Day05-<T1..T5>-<tên nhóm>` | Khác yêu cầu gốc; không tự đổi tên fork |
 
@@ -75,4 +75,11 @@ Repo chính: [VOX304/K5-L3-Day05-VoCongMinh-2A202603520-AI-Product-UX-Autonomy](
 
 README đề nguyên bản được giữ ở `docs/de-bai/README.md`; các file hướng dẫn, `tracks/` và `prototype-sample/` được giữ nguyên. Mã bài, tài liệu hướng dẫn học, glossary và ADR được bổ sung vào cùng lịch sử fork.
 
-Trạng thái push, commit và truy cập công khai sẽ được đối chiếu sau khi cập nhật nhánh chính. [Checklist nộp bài](checklist-nop-bai.md) phân biệt phần đã hoàn thành với các khác biệt chưa có chấp thuận của giảng viên. Push mã không thay thế nộp link qua kênh lớp hay demo thật.
+Đã kiểm tra ngày **14/11/2026** sau khi push:
+
+- Nhánh chính là `main`; mốc nội dung `47ca40f0351ba77070c91f2407404acc27c3d1ed` trên GitHub khớp bản local đã kiểm tra. Các cập nhật sau mốc này bổ sung bằng chứng xuất bản.
+- Repo vẫn công khai và là fork của `VinUni-AI20k/K5-L3-Day05-AI-Product-UX-Autonomy`. Trang repo và API đọc được qua HTTP 200 không có đăng nhập hay header `Authorization`.
+- Cả 35 tệp được theo dõi trên GitHub khớp mã blob của bản local. Không commit các thư mục lưu cục bộ `submission/`, `exports/` hoặc thư viện cài đặt.
+- Commit chương trình `7c1f24793008599ac3b77237d5c0c4eb2a89ad36` vẫn là tổ tiên của bản bài làm. Cả 12 tệp đề ban đầu được bảo toàn; riêng README được lưu tại `docs/de-bai/README.md` với cùng mã blob gốc, các tệp còn lại giữ vị trí và nội dung.
+
+[Checklist nộp bài](checklist-nop-bai.md) phân biệt phần đã hoàn thành với các khác biệt chưa có chấp thuận của giảng viên. Push mã không thay thế nộp link qua kênh lớp hay demo thật.

@@ -66,6 +66,7 @@
 ## Trạng thái làm việc
 
 - Bộ bài TakingCare được đưa vào gốc repo fork: `spec.md`, `prototype/`, `tests/`, glossary và tài liệu học trong `docs/`. README đề nguyên bản được giữ riêng; tài liệu đề và lịch sử Git được bảo toàn.
+- Đã push nhánh `main` vào repo fork chính và xác minh công khai không đăng nhập ngày 14/11/2026; mã trên GitHub khớp bản local, đủ 35 kiểm tra logic và 13 kiểm tra trình duyệt đạt. Chi tiết tại `docs/verification.md`.
 - Tên tác giả/mã giữ nguyên dạng trong tên repo do người học cung cấp; tên bài và bàn/zone đã được xác nhận riêng.
 - Các bản cũ trong `submission/` và `exports/` chỉ còn là bản lưu cục bộ, được loại khỏi nội dung commit của fork. Repo TakingCare riêng trước đó không được đổi tên, xoá hay dùng thay repo chính.
 - Khác biệt với chuẩn gốc: loại repo fork, tên repo và hình thức cá nhân. Người dùng xác nhận chưa có hướng dẫn riêng cho phép các khác biệt này. Xem `docs/checklist-nop-bai.md`.
