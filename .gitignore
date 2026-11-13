@@ -1,0 +1,10 @@
+.lab-tools/
+node_modules/
+.env
+.env.*
+!.env.example
+*.log
+
+# Local copies from the earlier handoff; the working submission is at this root.
+submission/
+exports/
